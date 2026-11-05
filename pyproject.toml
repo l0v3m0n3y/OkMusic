@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "okmusic-api"        # Имя для pip install okmusic-api
-version = "0.1.0"           # Начинаем историю релизов красиво с чистой 0.1.0
+version = "0.2"           
 authors = [
     { name = "l0v3m0n3y", email = "ffxckemweball@gmail.com" },
 ]
