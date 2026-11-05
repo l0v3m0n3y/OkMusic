@@ -116,7 +116,7 @@ class OKMusicSDK:
             **self.common_headers,
             "Accept": "*/*",
             "Accept-Encoding": "identity",
-            "Referer": "https://ok.ru/music/profile/910722294189",
+            "Referer": f"https://ok.ru/music/profile/{track_id}",
             "sec-fetch-dest": "audio",
             "sec-fetch-mode": "no-cors",
             "sec-fetch-site": "cross-site",
