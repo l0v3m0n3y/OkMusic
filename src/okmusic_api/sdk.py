@@ -72,7 +72,7 @@ class OKMusicSDK:
             **self.common_headers,
             "Accept": "application/json, text/javascript, */*; q=0.01",
             "Content-Type": "application/x-www-form-urlencoded",
-            "Referer": "https://ok.ru/music/profile/910722294189",
+            "Referer": f"https://ok.ru/music/profile/{track_id}",
             "X-Requested-With": "XMLHttpRequest",
         }
 
