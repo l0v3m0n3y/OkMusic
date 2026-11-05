@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "okmusic-api"        # Имя для pip install okmusic-api
+version = "0.1.0"           # Начинаем историю релизов красиво с чистой 0.1.0
+authors = [
+    { name = "l0v3m0n3y", email = "ffxckemweball@gmail.com" },
+]
+description = "Неофициальный бронированный SDK для работы с музыкальным API Одноклассников (WMF) через jsessionid"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Sound/Audio",
+]
+dependencies = [
+    "curl_cffi>=0.7.0",     # Зависимость, которая пробивает TLS-защиту CDN
+]
+
+[project.urls]
+"Homepage" = "https://github.com"
+"Bug Tracker" = "https://github.com/issues"
